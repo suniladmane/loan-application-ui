@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Website</title>
+    <link rel="stylesheet" href="home_styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Bank</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#account">Account</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Bank</h2>
+            <p>Manage your finances with ease.</p>
+        </section>
+
+        <section id="account">
+            <h2>Your Account</h2>
+            <form id="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-status"></p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at <a href="mailto:support@mybank.com">support@mybank.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Bank</p>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
